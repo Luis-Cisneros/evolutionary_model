@@ -26,3 +26,5 @@ The population state at end of the model (*x\**) is tested for Nash Equilibrium 
 *x\** is an Evolutionary Stable State of the model if: *(x\* - x) Y(x) > 0*  for all population states x that follow the condition: *(x - x\*) Y(x\*) = 0* 
 
 The executable **main.py** must receive the necessary network and miner parameters.
+
+Code optimized using the nijt compiler from numba.
