@@ -20,10 +20,10 @@ Where:
 
 The population state at end of the model (*x\**) is tested for Nash Equilibrium and Evolutionary Stable State criteria in **stable_strategy.py**
 
-*x\** is a Nash Equilibrium of the model if: *(x - x\*) Y(x\*) < 0*  for all possible population states x
+*x\** is a Nash Equilibrium of the model if: *(x - x\*) Y(x\*) ≤ 0*  for all possible population states x
 
 
-*x\** is an Evolutionary Stable State of the model if: *(x\* - x) Y(x) > 0*  for all population states x that follow the condition: *(x - x\*) Y(x\*) = 0* 
+*x\** is an Evolutionary Stable State of the model if: *(x\* - x) Y(x) ≥ 0*  for all population states x that follow the condition: *(x - x\*) Y(x\*) = 0* 
 
 The executable **main.py** must receive the necessary network and miner parameters.
 
